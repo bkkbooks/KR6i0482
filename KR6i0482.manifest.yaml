@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0482/v1
 canonical_location: https://kanripo.org/bkk/KR6i0482/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說十二頭陀經
   identifiers:
@@ -40,10 +40,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0482_000.yaml, hash: 'sha256:9cc28ed04ed5ca3a25ca358116ee19c1857ddfb15c5388a44bdc5d214e887810'}
-  - {seq: 1, filename: KR6i0482_001.yaml, hash: 'sha256:badec73ef3e470f0236b53c41cc676307a86a073fb9c52def81705ae1c4c6575'}
+  - {seq: 1, filename: KR6i0482_001.yaml, hash: 'sha256:8ea82e6d792078e3150bded2bb041086721a40ae752e37b9bc390c8436d0009a'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0482_000.markers.yaml, hash: 'sha256:11b4d1d9f937775e071fec0b0d0e7ae1aec7f265df4dabc2e3bb47db10a0ea58'}
-  - {seq: 1, role: markers, filename: assets/KR6i0482_001.markers.yaml, hash: 'sha256:90ab3a93ffe4d260e4a93bdfc7c5117b3bfea96043ad84ba1801429b43eebd6b'}
+  - {seq: 1, role: markers, filename: assets/KR6i0482_001.markers.yaml, hash: 'sha256:c0ad7e92b35bcc01d448f86a6044ed5dd4824adc2fb5a237f9d83b1d2c733540'}
 table_of_contents:
 - ref:
     seq: 1
@@ -55,4 +55,7 @@ table_of_contents:
   label: 佛說十二頭陀經
   type: juan
   level: 1
-hash: sha256:d9cb2889a11d36d43facfa8f1005b883ab6d84a7aa1c25942df9b157394c7a70
+hash: sha256:7106eff9b416b5df0ace4c4249db7d6f7ee09df408a45def6f8a11fecc282ac5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
